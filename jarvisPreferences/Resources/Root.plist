@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Jarvis</string>
+			<key>footerText</key>
+			<string>WARINNG: Jarvis relies on voice control, which melts through battery. This tweak is meant only as a cool party trick. The activation is not instant so you have a wait about half a second after "Hey Jarvis" before Siri starts listening</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Instructions</string>
+			<key>footerText</key>
+			<string>Follow these instructions exactly as written. First, create a shortcut with one action: "Turn Do Not Distrub Off". Name it something. Go to Settings->Accessibility->Voice Control->Customize Commands->Custom->Create New Command. Put "Hey Jarvis" as the phrase (anything else works theoretically). Set the action as the shortcut you just made. Turn on voice control and voila. To reduce battery usage, go through and disable all the default voice control commands (may take a while to do). If you want to turn on/off voice control quickly, set "Accessibility Shortcut" as "Voice Control", so that triple clicking will toggle it.</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Known Bug</string>
+			<key>footerText</key>
+			<string>3D touching any notification that comes from the settings app will act weird. I don't think I can do anything about it, but the settings app shouldn't have notifications anyway.</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Jarvis</string>
+</dict>
+</plist>

@@ -1,0 +1,9 @@
+Package: com.zhenguwu.jarvis
+Name: Jarvis
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Replace Hey Siri With a Custom Phrase
+Maintainer: zhenguwu
+Author: zhenguwu
+Section: Tweaks
